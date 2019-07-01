@@ -1,13 +1,27 @@
 {
-  "name": "portfolio",
+  "name": "boilerplate",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "starter for webpack React",
+  "main": "server/index.js",
+  "author": "Pano",
+  "license": "ISC",
   "scripts": {
+    "client": "webpack-dev-server --hot --inline",
+    "dev": "node server & webpack --watch",
+    "server": "node server",
+    "start": "webpack && node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-proposal-object-rest-spread"
+    ]
+  },
   "dependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
