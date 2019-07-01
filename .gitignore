@@ -1,1 +1,10 @@
-node_modules
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Webpack bundles
+bundle.*
