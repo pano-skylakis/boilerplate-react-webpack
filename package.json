@@ -23,7 +23,13 @@
     ]
   },
   "dependencies": {
+    "express": "^4.17.1",
+    "superagent": "^5.1.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.5",
     "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.4",
@@ -31,14 +37,20 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.0.6",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
     "jsdom": "^15.1.1",
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "sass": "^1.22.1",
     "sass-loader": "^7.1.0",
-    "superagent": "^5.1.0",
     "webpack": "^4.35.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pano-skylakis/boilerplate-react-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pano-skylakis/boilerplate-react-webpack/issues"
+  },
+  "homepage": "https://github.com/pano-skylakis/boilerplate-react-webpack#readme"
 }
