@@ -7,10 +7,11 @@
   "license": "ISC",
   "scripts": {
     "client": "webpack-dev-server --hot --inline",
-    "dev": "node server & webpack --watch",
+    "dev": "node server & webpack & node-sass --watch client/sass -o public/css --watch",
     "server": "node server",
     "start": "webpack && node server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch client/sass -o public/css"
   },
   "babel": {
     "presets": [
@@ -38,9 +39,9 @@
     "babel-loader": "^8.0.6",
     "cors": "^2.8.5",
     "jsdom": "^15.1.1",
-    "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "node-sass": "^4.12.0",
     "sass": "^1.22.1",
     "sass-loader": "^7.1.0",
     "webpack": "^4.35.0",
