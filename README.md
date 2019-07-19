@@ -1,1 +1,1 @@
-#react-webpack-express boilerplate
+# Boilerplate for React-Webpack-Express && Sass!
