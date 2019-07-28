@@ -7,7 +7,7 @@
 
 ####To Run:
 
-You will need to run two terminals with this boilerplate, one for webpack and another to compile Sass.
+You will need to run two terminals with this boilerplate; one for webpack and another to compile Sass.
 
 ` npm install `
 
