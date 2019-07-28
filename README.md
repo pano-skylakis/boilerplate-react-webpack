@@ -1,1 +1,1 @@
-#react-webpack-express boilerplate
+#react-webpack-express-sass boilerplate
