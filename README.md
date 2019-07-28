@@ -11,12 +11,14 @@ You will need to run two terminals with this boilerplate; one for webpack and an
 
 ` npm install `
 
-in one terminal(node server && webpack):
+in one terminal (node server && webpack):
 
 ` npm run dev `
 
-in another terminal(compiles Sass on save):
+in another terminal (compiles sass on save):
 
 `npm run scss`
+
+
 
 **Enjoy!**
