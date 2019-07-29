@@ -19,7 +19,7 @@ In another terminal (compiles sass on save):
 
 `npm run scss`
 
-### For WINDOWS
+#### For WINDOWS OS
 
 In order to run webpack on windows you will need to do the following:
 
@@ -33,6 +33,6 @@ Next, in your ` package.json ` under scripts, replace ` "dev": "node server & we
 "run-server": "node server"
 ```
 
-run node server && webpack with ` npm run dev `
+Run node server && webpack with ` npm run dev `
 
 **Enjoy!**
