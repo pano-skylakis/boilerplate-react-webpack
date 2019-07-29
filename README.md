@@ -11,14 +11,28 @@ You will need to run two terminals with this boilerplate; one for webpack and an
 
 ` npm install `
 
-in one terminal (node server && webpack):
+In one terminal (node server && webpack):
 
 ` npm run dev `
 
-in another terminal (compiles sass on save):
+In another terminal (compiles sass on save):
 
 `npm run scss`
 
+### For WINDOWS
 
+In order to run webpack on windows you will need to do the following:
+
+` npm install npm-run-all `
+
+Next, in your ` package.json ` under scripts, replace ` "dev": "node server & webpack --watch" ` with these *three* lines
+
+```
+	"dev": "npx run-p run-client run-server",
+	"run-client": "webpack --watch",
+	"run-server": "node server"
+```
+
+run node server && webpack with ` npm run dev `
 
 **Enjoy!**
