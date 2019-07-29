@@ -25,12 +25,12 @@ In order to run webpack on windows you will need to do the following:
 
 ` npm install npm-run-all `
 
-Next, in your ` package.json ` under scripts, replace ` "dev": "node server & webpack --watch" ` with these *three* lines
+Next, in your ` package.json ` under scripts, replace ` "dev": "node server & webpack --watch" ` with these *three* lines:
 
 ```
-	"dev": "npx run-p run-client run-server",
-	"run-client": "webpack --watch",
-	"run-server": "node server"
+"dev": "npx run-p run-client run-server",
+"run-client": "webpack --watch",
+"run-server": "node server"
 ```
 
 run node server && webpack with ` npm run dev `
