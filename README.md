@@ -19,7 +19,7 @@ In another terminal (compiles sass on save):
 
 `npm run scss`
 
-#### For WINDOWS OS
+#### For WINDOWS OS:
 
 In order to run webpack on windows you will need to do the following:
 
