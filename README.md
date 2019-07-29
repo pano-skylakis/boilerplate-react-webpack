@@ -7,15 +7,15 @@
 
 #### To Run:
 
-You will need to run two terminals with this boilerplate; one for webpack and another to compile Sass.
-
 ` npm install `
 
-In one terminal (node server && webpack):
+You will need to run two terminals with this boilerplate; one for webpack and another to compile Sass.
+
+1. Node server && webpack:
 
 ` npm run dev `
 
-In another terminal (compiles sass on save):
+2. To compile sass:
 
 `npm run scss`
 
